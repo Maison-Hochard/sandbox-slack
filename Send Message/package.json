@@ -5,11 +5,12 @@
   "main": "script.js",
   "scripts": {
     "start": "node script.js",
-    "start-arg": "node script.js -d test"
+    "start-arg": "node script.js -t \"Hello World!\" -c helpr"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@slack/web-api": "^6.8.0",
     "axios": "^1.2.2",
     "commander": "^7.2.0",
     "console-stamp": "^3.0.3",
